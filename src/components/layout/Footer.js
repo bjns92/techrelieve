@@ -126,7 +126,7 @@ const Footer = () => {
       <FooterContent>
         <FooterColumn>
           <FooterLogo to="/">
-            <img src="/assets/logo.png" alt="TechRelieve Logo" />
+           <img src={`${process.env.PUBLIC_URL}/assets/logo.png`} alt="TechRelieve Logo" />
           </FooterLogo>
           <FooterDescription>
             Transform product images into stunning model shots effortlessly with our AI-powered technology. Save time and money while creating high-quality visuals for your e-commerce business.

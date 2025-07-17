@@ -422,7 +422,7 @@ const TestimonialSlider = () => {
       text: "TechRelieve's AI model photo generation has completely transformed our e-commerce business. We've cut our product photography costs by 80% while improving the quality of our visuals. Our customers love the consistent look across our entire catalog.",
       name: "Sarah Johnson",
       role: "E-commerce Manager, FashionHub",
-      image: "/assets/man.png",
+      image: `${process.env.PUBLIC_URL}/assets/man.png`,
       rating: 5
     },
     {
@@ -430,7 +430,7 @@ const TestimonialSlider = () => {
       text: "As a small business owner, I couldn't afford professional photoshoots for my clothing line. TechRelieve's solution has been a game-changer. Now I can compete with larger brands by showcasing my products on professional-looking models without breaking the bank.",
       name: "Michael Chen",
       role: "Owner, Urban Threads Boutique",
-      image: "/assets/man.png",
+     image: `${process.env.PUBLIC_URL}/assets/man.png`,
       rating: 5
     },
     {
@@ -438,7 +438,7 @@ const TestimonialSlider = () => {
       text: "The speed and quality of TechRelieve's AI model generation is impressive. We can now process hundreds of product images in minutes, allowing us to launch new collections faster than ever before. This technology has given us a significant competitive advantage.",
       name: "Jessica Williams",
       role: "Digital Marketing Director, StyleMax",
-      image: "/assets/man.png",
+     image: `${process.env.PUBLIC_URL}/assets/man.png`,
       rating: 4
     }
   ];

@@ -16,7 +16,7 @@ const CTASection = styled.section`
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('/assets/pattern.jpg') repeat;
+    background: url('${process.env.PUBLIC_URL}/assets/pattern.jpg') repeat;
     opacity: 0.1;
     z-index: 1;
   }

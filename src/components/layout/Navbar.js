@@ -175,7 +175,7 @@ const Navbar = () => {
       <NavbarContainer scrolled={scrolled}>
         <NavbarContent>
           <Logo to="/">
-            <img src="/assets/logo.png" alt="TechRelieve Logo" />
+         <img src={`${process.env.PUBLIC_URL}/assets/logo.png`} alt="TechRelieve Logo" />
           </Logo>
           
           <MenuIcon onClick={toggleMenu}>

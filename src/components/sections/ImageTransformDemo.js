@@ -563,39 +563,39 @@ const ImageTransformDemo = () => {
   const transformations = [
     {
       id: 1,
-      beforeImage: "/assets/dress/3.jpg",
-      afterImage: "/assets/models/3.jpg",
-      videoSrc: "/assets/videos/3.mp4"
+      beforeImage: `${process.env.PUBLIC_URL}/assets/dress/3.jpg`,
+      afterImage: `${process.env.PUBLIC_URL}/assets/models/3.jpg`,
+      videoSrc: `${process.env.PUBLIC_URL}/assets/videos/3.mp4`
     },
     {
       id: 2,
-      beforeImage: "/assets/dress/2.jpg",
-      afterImage: "/assets/models/2.jpg",
-      videoSrc: "/assets/videos/2.mp4"
+      beforeImage: `${process.env.PUBLIC_URL}/assets/dress/2.jpg`,
+      afterImage: `${process.env.PUBLIC_URL}/assets/models/2.jpg`,
+      videoSrc: `${process.env.PUBLIC_URL}/assets/videos/2.mp4`
     },
     {
       id: 3,
-      beforeImage: "/assets/dress/1.jpg",
-      afterImage: "/assets/models/1.jpg",
-      videoSrc: "/assets/videos/1.mp4"
+      beforeImage: `${process.env.PUBLIC_URL}/assets/dress/1.jpg`,
+      afterImage: `${process.env.PUBLIC_URL}/assets/models/1.jpg`,
+      videoSrc: `${process.env.PUBLIC_URL}/assets/videos/1.mp4`
     },
     {
       id: 4,
-      beforeImage: "/assets/dress/4.jpg",
-      afterImage: "/assets/models/4.jpg",
-      videoSrc: "/assets/videos/4.mp4"
+      beforeImage: `${process.env.PUBLIC_URL}/assets/dress/4.jpg`,
+      afterImage: `${process.env.PUBLIC_URL}/assets/models/4.jpg`,
+      videoSrc: `${process.env.PUBLIC_URL}/assets/videos/4.mp4`
     },
     {
       id: 5,
-      beforeImage: "/assets/dress/5.jpg",
-      afterImage: "/assets/models/5.jpg",
-      videoSrc: "/assets/videos/5.mp4"
+      beforeImage: `${process.env.PUBLIC_URL}/assets/dress/5.jpg`,
+      afterImage: `${process.env.PUBLIC_URL}/assets/models/5.jpg`,
+      videoSrc: `${process.env.PUBLIC_URL}/assets/videos/5.mp4`
     },
     {
       id: 6,
-      beforeImage: "/assets/dress/6.jpg",
-      afterImage: "/assets/models/6.jpg",
-      videoSrc: "/assets/videos/6.mp4"
+      beforeImage: `${process.env.PUBLIC_URL}/assets/dress/6.jpg`,
+      afterImage: `${process.env.PUBLIC_URL}/assets/models/6.jpg`,
+      videoSrc: `${process.env.PUBLIC_URL}/assets/videos/6.mp4`
     }
   ];
 
@@ -603,9 +603,9 @@ const ImageTransformDemo = () => {
   const transformationsVideo = [
     {
       id: 7,
-      beforeImage: "/assets/dress/7.jpg",
-      afterVideo: "/assets/models/7.mp4",
-      videoSrc: "/assets/videos/7.mp4"
+      beforeImage: `${process.env.PUBLIC_URL}/assets/dress/7.jpg`,
+      afterVideo: `${process.env.PUBLIC_URL}/assets/videos/7.mp4`,
+      videoSrc: `${process.env.PUBLIC_URL}/assets/videos/7.mp4`
     },
     
   ];
