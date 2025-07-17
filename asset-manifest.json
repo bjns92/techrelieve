@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bjns92/techrelieve/static/css/main.a695b033.css",
-    "main.js": "/bjns92/techrelieve/static/js/main.2c8cce06.js",
-    "static/js/453.b42ee547.chunk.js": "/bjns92/techrelieve/static/js/453.b42ee547.chunk.js",
-    "index.html": "/bjns92/techrelieve/index.html",
-    "main.a695b033.css.map": "/bjns92/techrelieve/static/css/main.a695b033.css.map",
-    "main.2c8cce06.js.map": "/bjns92/techrelieve/static/js/main.2c8cce06.js.map",
-    "453.b42ee547.chunk.js.map": "/bjns92/techrelieve/static/js/453.b42ee547.chunk.js.map"
+    "main.css": "/techrelieve/static/css/main.a695b033.css",
+    "main.js": "/techrelieve/static/js/main.711f7941.js",
+    "static/js/453.b42ee547.chunk.js": "/techrelieve/static/js/453.b42ee547.chunk.js",
+    "index.html": "/techrelieve/index.html",
+    "main.a695b033.css.map": "/techrelieve/static/css/main.a695b033.css.map",
+    "main.711f7941.js.map": "/techrelieve/static/js/main.711f7941.js.map",
+    "453.b42ee547.chunk.js.map": "/techrelieve/static/js/453.b42ee547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a695b033.css",
-    "static/js/main.2c8cce06.js"
+    "static/js/main.711f7941.js"
   ]
 }
