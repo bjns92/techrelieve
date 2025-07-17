@@ -604,7 +604,7 @@ const ImageTransformDemo = () => {
     {
       id: 7,
       beforeImage: `${process.env.PUBLIC_URL}/assets/dress/7.jpg`,
-      afterVideo: `${process.env.PUBLIC_URL}/assets/videos/7.mp4`,
+      afterVideo: `${process.env.PUBLIC_URL}/assets/models/7.mp4`,
       videoSrc: `${process.env.PUBLIC_URL}/assets/videos/7.mp4`
     },
     
